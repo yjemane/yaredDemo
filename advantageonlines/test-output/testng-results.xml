@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-30T13:24:32 CST" name="Default suite" finished-at="2022-12-30T13:24:41 CST" duration-ms="9072">
+    <groups>
+    </groups>
+    <test started-at="2022-12-30T13:24:32 CST" name="Default test" finished-at="2022-12-30T13:24:41 CST" duration-ms="9072">
+      <class name="Testcases.LoginPage">
+        <test-method is-config="true" signature="browserOpen()[pri:0, instance:Testcases.LoginPage@52719fb6]" started-at="2022-12-30T13:24:32 CST" name="browserOpen" finished-at="2022-12-30T13:24:34 CST" duration-ms="2047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpen -->
+        <test-method signature="validatLogin()[pri:1, instance:Testcases.LoginPage@52719fb6]" started-at="2022-12-30T13:24:34 CST" name="validatLogin" finished-at="2022-12-30T13:24:38 CST" duration-ms="4296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatLogin -->
+        <test-method signature="wishListvalidation()[pri:2, instance:Testcases.LoginPage@52719fb6]" started-at="2022-12-30T13:24:38 CST" name="wishListvalidation" finished-at="2022-12-30T13:24:41 CST" duration-ms="2678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishListvalidation -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:Testcases.LoginPage@52719fb6]" started-at="2022-12-30T13:24:41 CST" name="browserClose" finished-at="2022-12-30T13:24:41 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- Testcases.LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
