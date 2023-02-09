@@ -4,6 +4,8 @@ import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import static org.testng.Assert.assertEquals;
 
+import java.net.MalformedURLException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -14,15 +16,16 @@ import org.testng.annotations.Test;
 import EelementLocators.Elements;
 import TestData.Datas;
 import utillities.Browserconfig;
+import utillities.gridEngin;
 
 public class Homepage {
 	
 	public static WebDriver dr;
 	@BeforeMethod
-	public static void homepageOpen()
+	public static void homepageOpen() throws MalformedURLException
 	{
-		dr=Browserconfig.Browser();
-		
+		//dr=Browserconfig.Browser();
+		dr=gridEngin.browsetup1();
 		
 		
 	}
@@ -65,7 +68,7 @@ public class Homepage {
    @AfterTest 
    public static void HomepageClose()
    {
-	 //dr.close();
+	 dr.close();
 	   
 	 
    }
